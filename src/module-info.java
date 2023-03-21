@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author MOMO
+ *
+ */
+module JavaProject {
+}
