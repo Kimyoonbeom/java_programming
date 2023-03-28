@@ -21,31 +21,31 @@ public class Weeks3 {
 			String strCom = com[index];
 			
 			System.out.print("나는" + user);
-			System.out.print(", 컴퓨터는"+strCom);
+			System.out.print(", 컴퓨터="+strCom);
 			
 			if(user.equals("가위")) {
 				if(strCom.equals("가위"))
-					System.out.println("비겼음");
+					System.out.println(" 비겼음");
 				else if(strCom.equals("바위"))
-					System.out.println("졌음");
+					System.out.println(" 졌음");
 				else if(strCom.equals("보"))
-					System.out.println("이겼음");
+					System.out.println(" 이겼음");
 			}
 			else if(user.equals("바위")) {
 				if(strCom.equals("가위"))
-					System.out.println("이겼음");
+					System.out.println(" 이겼음");
 				else if(strCom.equals("바위"))
-					System.out.println("비겼음");
+					System.out.println(" 비겼음");
 				else if(strCom.equals("보"))
-					System.out.println("졌음");
+					System.out.println(" 졌음");
 			}
 			else if(user.equals("보")) {
 				if(strCom.equals("가위"))
-					System.out.println("졌음");
+					System.out.println(" 졌음");
 				else if(strCom.equals("바위"))
-					System.out.println("이겼음");
+					System.out.println(" 이겼음");
 				else if(strCom.equals("보"))
-					System.out.println("비겼음");
+					System.out.println(" 비겼음");
 			}
 			else {
 				System.out.println("잘못 냈습니다.");
